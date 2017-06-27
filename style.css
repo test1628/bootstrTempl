@@ -114,9 +114,10 @@ ul{
 	margin-bottom: 0;
 }
 .form-group{
-	margin-left: 15px;
-	margin-right: 20px;
+/*	margin-left: 15px;
+	margin-right: 20px;*/
 	background-color: #f3f3f3;
+	padding: 20px;
 }
 .form-title{
 	font-weight: bold;
@@ -166,6 +167,7 @@ h3{
 	border-bottom: 1px solid #5c646e;
 	width: 90%;
 	color: #a0b0bf;
+	margin-top: 10px;
 }
 ul.time{
 	padding-left: 0;
@@ -222,6 +224,7 @@ a.mail{
 	.img-wrap-item{
 		margin-right: 20px;
 		margin-bottom: 20px;
+		padding-left: 0;
 	}
 
 }
