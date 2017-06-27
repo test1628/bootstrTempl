@@ -1,0 +1,228 @@
+body{
+	color: #5c646e;
+}
+.navbar-brand a{
+	font-size: 40px;
+	font-weight: bold;
+	color: #a5adb8;
+	line-height: 1;
+}
+p.descr{
+	font-size: 18px;
+
+	color: #5c646e;
+	line-height: 1;
+
+	margin-bottom: 0;
+}
+.first-letter{
+	color: #ae4b5d;
+}
+input.search{
+	background-color: #24272d;
+	border: 1px solid #875f66;
+}
+button.search{
+	background-color: #ae4b5d;
+	color: #fff;
+	border: none;
+}
+.jumbotron{
+background-image: url(https://www.nwcherries.com/sites/default/files/styles/1550x822/public/2016-11/fruits-cherries-drops-hd-wallpaper.jpg?itok=RoHvmecA);
+background-position: center center;
+border-radius: 0;
+margin-bottom: 0;
+
+}
+.jumbotron h2{
+	font-size: 38px;
+	font-weight: bold;
+	color: #a5adb8;
+	margin-bottom: 0;
+}
+.blck-bld{
+	color: #3b3c3b;
+	font-weight: bold;
+	font-size: 20px;
+}
+.mid{
+	color: #a5adb8;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.jumbo-text{
+	width: 50%;
+	color: #d9dcdf;
+}
+nav.menu{
+	background-color: #95161f;
+
+}
+.menu .navbar-nav .nav-link{
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.breadcrumb{
+	background-color: #f3f3f3;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 12px;
+	text-decoration: underline;
+}
+.breadcrumb a{
+	color: red;
+	text-decoration: underline;
+}
+.main{
+	margin-bottom: 20px;
+}
+h2{
+	color: #a5adb8;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.img-wrap{
+	margin-bottom: 20px;
+}
+.img-item{
+	box-shadow: 2px 5px 5px grey;
+}
+.lst-title{
+	font-weight: bold;
+	font-size: 18px;
+}
+.marked{
+	background-color: lightgrey;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.list-block{
+	font-size: 15px;
+}
+ul,ol{
+	
+	padding-left: 25px;
+}
+ul{
+	list-style-type:disc;
+	margin-bottom: 0;
+}
+.form-group{
+	margin-left: 15px;
+	margin-right: 20px;
+	background-color: #f3f3f3;
+}
+.form-title{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.form-group input{
+	margin-bottom: 10px;
+	background-color: #e3e4e6;
+}
+.input-descr{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+input[type="submit"],.form-group button{
+	width: 100%;
+	height: 60px;
+	border: 6px solid #fff;
+	background-color: #f0f0f0;
+	font-weight: bold;
+	color: #758086;
+
+}
+input[type="submit"]{
+	display: block;
+	margin-top: 20px;
+}
+
+input[type="submit"]:hover, button:hover{
+	background-color: #a62029;
+	color: #fff;
+}
+label{
+	margin-bottom: 0;
+}
+footer{
+	padding-top: 20px;
+	border-top: 10px solid #9a4856;
+}
+
+h3{
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #5c646e;
+	width: 90%;
+	color: #a0b0bf;
+}
+ul.time{
+	padding-left: 0;
+	list-style: none;
+}
+i.fa{
+	color: #904c59;
+}
+.social i.fa{
+	color: #fff;
+	background-color: #904c59;
+	width: 1.5em;
+	padding: 3px;
+	text-align: center;
+	border-radius: 3px
+}
+.light{
+	color: #9195a1 ;
+	font-weight: bold;
+}
+.less-marg p{
+	margin-bottom: 5px;
+}
+a.mail{
+	color: #916e72;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+	p.descr{
+		white-space: normal;
+	}
+	.navbar-toggler{
+		margin-bottom: 10px;
+	}
+	.menu .navbar-nav .nav-link{
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 1199px) {
+	
+	input.form-control.search{
+		width: 80%;
+	}
+	button.search{
+		width: 15%;
+		display: flex;
+		justify-content: center;
+		height: 100%;
+	}
+	.img-wrap-item{
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+
+}
+
